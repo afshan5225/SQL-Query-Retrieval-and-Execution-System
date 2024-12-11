@@ -163,11 +163,11 @@ if submit:
     print(f"Generated SQL Query: {response}")
     
   
-    db_host = '182.66.248.250'
-    db_port = '5432'
-    db_username = 'odoo17'
-    db_password = 'KENf9wcR28fh2'
-    db_name = 'odoo17'
+    db_host = ''
+    db_port = ''
+    db_username = ''
+    db_password = ''
+    db_name = ''
     
     
     response_data = read_sql_query(response, db_host, db_port, db_username, db_password, db_name)
